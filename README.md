@@ -1,5 +1,12 @@
 
 # laravel on Gcloud
+
+### Run on Google cloud run
+Be careful and replace the last part with your repo's HTTPs URL, for example, if your repo is at https://github.com/ghaleroshan/laravel6-on-google-cloud-run it will be https://github.com/ghaleroshan/laravel6-on-google-cloud-run.git, then commit and push. Your PR should look something like this one.
+
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/cfphpflex/laravel6-on-google-cloud-run.git)
+
+
 ###### docs  https://geshan.com.np/blog/2019/10/get-laravel-6-running-on-google-cloud-run-step-by-step-with-ci/
 ##### docker compose run project, assumes u have & are loggedin at dockerhub   
 docker container ls
