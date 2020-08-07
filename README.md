@@ -1,3 +1,25 @@
+
+# laravel on Gcloud
+###### docs  https://geshan.com.np/blog/2019/10/get-laravel-6-running-on-google-cloud-run-step-by-step-with-ci/
+##### docker compose run project, assumes u have & are loggedin at dockerhub   
+docker container ls
+
+docker rm -f <container-name>
+##### https://stackoverflow.com/questions/46176584/docker-bind-for-0-0-0-04000-failed-port-is-already-allocated
+
+docker-compose up
+
+docker-compose down
+
+ 
+
+## run project
+php -S localhost:8000 
+
+Docs
+https://geshan.com.np/blog/2019/10/get-laravel-6-running-on-google-cloud-run-step-by-step-with-ci/
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
